@@ -194,7 +194,7 @@ namespace Project1 {
 		sqlite3* db;
 		char* errorMessage = nullptr;
 
-		int rc = sqlite3_open("C:\\Users\\Ivan\\source\\repos\\bd-vxod\\guiSQLiteStudio1.db", &db);// рср бюье пюяонкнфемхе ад, йнрнпсч ъ бюл яйхмс))!!!!!!!!!!!!!
+		int rc = sqlite3_open("C:\\Users\\Ivan\\source\\repos\\bd-vxod\\guiSQLiteStudio1", &db);// рср бюье пюяонкнфемхе ад, йнрнпсч ъ бюл яйхмс))!!!!!!!!!!!!!
 		if (rc != SQLITE_OK) {
 			MessageBox::Show("нЬХАЙЮ ОПХ НРЙПШРХХ АЮГШ ДЮММШУ!");
 		}

@@ -262,6 +262,7 @@ namespace Project1 {
 			this->label6->Size = System::Drawing::Size(93, 13);
 			this->label6->TabIndex = 12;
 			this->label6->Text = L"Комплектация";
+			this->label6->Click += gcnew System::EventHandler(this, &MyForm1::label6_Click);
 			// 
 			// label7
 			// 
@@ -273,6 +274,7 @@ namespace Project1 {
 			this->label7->Size = System::Drawing::Size(50, 16);
 			this->label7->TabIndex = 13;
 			this->label7->Text = L"Ф.И.О";
+			this->label7->Click += gcnew System::EventHandler(this, &MyForm1::label7_Click);
 			// 
 			// label8
 			// 
@@ -284,6 +286,7 @@ namespace Project1 {
 			this->label8->Size = System::Drawing::Size(45, 16);
 			this->label8->TabIndex = 14;
 			this->label8->Text = L"Цена";
+			this->label8->Click += gcnew System::EventHandler(this, &MyForm1::label8_Click);
 			// 
 			// button2
 			// 
@@ -409,7 +412,7 @@ namespace Project1 {
 			std::string utf8Sum = utf8_encode(msclr::interop::marshal_as<std::wstring>(sum));
 			std::string utf8AddressId = utf8_encode(msclr::interop::marshal_as<std::wstring>(address_id));
 
-			String^ query = "INSERT INTO Person (id, Name, Surname, Complect, FIO, Sum, address_id)"
+			String^ query = "INSERT INTO Person (Name, Surname, Complect, FIO, Sum, address_id)"
 				" VALUES ('" + gcnew String(utf8Name.c_str()) + "', '" + gcnew String(utf8Surname.c_str()) + "', '" + gcnew String(utf8Complect.c_str()) + "', '" + gcnew String(utf8Fio.c_str()) + "', '" + gcnew String(utf8Sum.c_str()) + "', '" + gcnew String(utf8AddressId.c_str()) + "');";
 			std::string queryStr = msclr::interop::marshal_as<std::string>(query);
 
@@ -531,5 +534,11 @@ private: System::Void Form1_Load(System::Object^ sender, System::EventArgs^ e) {
 	button1->Enabled = false;
 }
 
+private: System::Void label6_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void label7_Click(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void label8_Click(System::Object^ sender, System::EventArgs^ e) {
+}
 };
 }
