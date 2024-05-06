@@ -388,7 +388,7 @@ namespace Project1 {
 		sqlite3* db;
 		char* errorMessage = nullptr;
 
-		int rc = sqlite3_open("C:\\Users\\Ivan\\source\\repos\\bd-vxod\\guiSQLiteStudio1.db", &db);// ÒÓÒ ÂÀØÅ ĞÀÑÏÎËÎÆÅÍÈÅ ÁÄ, ÊÎÒÎĞÓŞ ß ÂÀÌ ÑÊÈÍÓ))!!!!!!!!!!!!!
+		int rc = sqlite3_open("C:\\Users\\Ivan\\source\\repos\\bd-vxod\\guiSQLiteStudio1", &db);
 
 
 		if (rc != SQLITE_OK) {
@@ -495,7 +495,7 @@ private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e
 
 	sqlite3* db;
 	char* errorMessage = nullptr;
-	int rc = sqlite3_open("C:\\Users\\Ivan\\source\\repos\\bd-vxod\\guiSQLiteStudio1.db", &db);
+	int rc = sqlite3_open("C:\\Users\\Ivan\\source\\repos\\bd-vxod\\guiSQLiteStudio1", &db);
 
 	// Âûïîëíÿåì SQL-çàïğîñ
 	sqlite3_stmt* stmt;
