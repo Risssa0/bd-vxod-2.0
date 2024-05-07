@@ -189,7 +189,7 @@ namespace Project1 {
 			// 
 			// textBox2
 			// 
-			this->textBox2->Location = System::Drawing::Point(129, 167);
+			this->textBox2->Location = System::Drawing::Point(131, 123);
 			this->textBox2->Name = L"textBox2";
 			this->textBox2->Size = System::Drawing::Size(148, 20);
 			this->textBox2->TabIndex = 4;
@@ -197,7 +197,7 @@ namespace Project1 {
 			// 
 			// textBox3
 			// 
-			this->textBox3->Location = System::Drawing::Point(129, 212);
+			this->textBox3->Location = System::Drawing::Point(131, 168);
 			this->textBox3->Name = L"textBox3";
 			this->textBox3->Size = System::Drawing::Size(148, 20);
 			this->textBox3->TabIndex = 5;
@@ -205,7 +205,7 @@ namespace Project1 {
 			// 
 			// textBox4
 			// 
-			this->textBox4->Location = System::Drawing::Point(129, 259);
+			this->textBox4->Location = System::Drawing::Point(131, 215);
 			this->textBox4->Name = L"textBox4";
 			this->textBox4->Size = System::Drawing::Size(148, 20);
 			this->textBox4->TabIndex = 6;
@@ -213,7 +213,7 @@ namespace Project1 {
 			// 
 			// textBox5
 			// 
-			this->textBox5->Location = System::Drawing::Point(129, 305);
+			this->textBox5->Location = System::Drawing::Point(131, 261);
 			this->textBox5->Name = L"textBox5";
 			this->textBox5->Size = System::Drawing::Size(148, 20);
 			this->textBox5->TabIndex = 7;
@@ -221,7 +221,7 @@ namespace Project1 {
 			// 
 			// textBox6
 			// 
-			this->textBox6->Location = System::Drawing::Point(128, 347);
+			this->textBox6->Location = System::Drawing::Point(130, 303);
 			this->textBox6->Name = L"textBox6";
 			this->textBox6->Size = System::Drawing::Size(149, 20);
 			this->textBox6->TabIndex = 8;
@@ -232,7 +232,7 @@ namespace Project1 {
 			this->label4->AutoSize = true;
 			this->label4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Bold));
 			this->label4->ForeColor = System::Drawing::SystemColors::ControlLightLight;
-			this->label4->Location = System::Drawing::Point(12, 171);
+			this->label4->Location = System::Drawing::Point(14, 127);
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(55, 16);
 			this->label4->TabIndex = 10;
@@ -244,7 +244,7 @@ namespace Project1 {
 			this->label5->AutoSize = true;
 			this->label5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Bold));
 			this->label5->ForeColor = System::Drawing::SystemColors::ControlLightLight;
-			this->label5->Location = System::Drawing::Point(12, 213);
+			this->label5->Location = System::Drawing::Point(14, 169);
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(82, 16);
 			this->label5->TabIndex = 11;
@@ -257,7 +257,7 @@ namespace Project1 {
 			this->label6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->label6->ForeColor = System::Drawing::SystemColors::ControlLightLight;
-			this->label6->Location = System::Drawing::Point(7, 262);
+			this->label6->Location = System::Drawing::Point(9, 218);
 			this->label6->Name = L"label6";
 			this->label6->Size = System::Drawing::Size(93, 13);
 			this->label6->TabIndex = 12;
@@ -269,7 +269,7 @@ namespace Project1 {
 			this->label7->AutoSize = true;
 			this->label7->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Bold));
 			this->label7->ForeColor = System::Drawing::SystemColors::ControlLightLight;
-			this->label7->Location = System::Drawing::Point(12, 306);
+			this->label7->Location = System::Drawing::Point(14, 262);
 			this->label7->Name = L"label7";
 			this->label7->Size = System::Drawing::Size(50, 16);
 			this->label7->TabIndex = 13;
@@ -281,7 +281,7 @@ namespace Project1 {
 			this->label8->AutoSize = true;
 			this->label8->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Bold));
 			this->label8->ForeColor = System::Drawing::SystemColors::ControlLightLight;
-			this->label8->Location = System::Drawing::Point(12, 348);
+			this->label8->Location = System::Drawing::Point(14, 304);
 			this->label8->Name = L"label8";
 			this->label8->Size = System::Drawing::Size(45, 16);
 			this->label8->TabIndex = 14;
@@ -319,7 +319,7 @@ namespace Project1 {
 			this->label9->AutoSize = true;
 			this->label9->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Bold));
 			this->label9->ForeColor = System::Drawing::SystemColors::ControlLightLight;
-			this->label9->Location = System::Drawing::Point(12, 389);
+			this->label9->Location = System::Drawing::Point(14, 345);
 			this->label9->Name = L"label9";
 			this->label9->Size = System::Drawing::Size(78, 16);
 			this->label9->TabIndex = 17;
@@ -330,7 +330,7 @@ namespace Project1 {
 			// 
 			this->comboBox1->DropDownStyle = System::Windows::Forms::ComboBoxStyle::DropDownList;
 			this->comboBox1->FormattingEnabled = true;
-			this->comboBox1->Location = System::Drawing::Point(128, 388);
+			this->comboBox1->Location = System::Drawing::Point(130, 344);
 			this->comboBox1->Name = L"comboBox1";
 			this->comboBox1->Size = System::Drawing::Size(147, 21);
 			this->comboBox1->TabIndex = 18;
