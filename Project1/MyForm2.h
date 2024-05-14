@@ -4,6 +4,7 @@
 #include "MyForm3.h"
 #include "MyForm4.h"
 #include "MyForm5.h"
+#include "MyForm6.h"
 namespace Project1 {
 
 	using namespace System;
@@ -308,7 +309,10 @@ private: System::Void panel1_MouseUp(System::Object^ sender, System::Windows::Fo
 
 }
 private: System::Void button6_Click(System::Object^ sender, System::EventArgs^ e) {
-
+	MyForm6^ f1 = gcnew MyForm6();
+	f1->Owner = this;
+	f1->Show();
+	this->Hide();
 }
 };
 }
